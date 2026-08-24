@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            padding: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        form *{
+            display: flex;
+            flex-direction: column;
+        }
+
+        button {
+            margin-top: 10px;
+            background-color:rgb(215, 192, 177);
+            padding: 10px;
+        }
+
+        fieldset {
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+        }
+
+        :root {
+            display: flex;
+            justify-content: center;
+        }
+
+        #message {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="" method="post">
+        <h3>Let us know what you think!</h3>
+        <fieldset>
+            <input type="text" placeholder="Name"> <br>
+            <input type="email" placeholder="Email"> <br>
+            <input type="number" placeholder="Contact number"> <br>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <button>Send message</button>
+        </fieldset>
+    </form>
+</body>
+</html>
